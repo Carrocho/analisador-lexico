@@ -1,0 +1,14 @@
+char[100] s = "texto sem fechar";
+
+"hello 
+wesley
+
+if (x < 10)
+else
+10.0
+10.0.0
+10.
+$ $ $ $ $ id
+@aaaa
+10aaaa
+teste testre
