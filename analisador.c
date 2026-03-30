@@ -12,7 +12,6 @@ typedef enum
     TOKEN_ID,
     TOKEN_OP,
     TOKEN_STRING,
-    TOKEN_CHAR,
     TOKEN_ERROR,
     TOKEN_COMMENT,
     TOKEN_DELIM
@@ -47,7 +46,7 @@ TokenDef definicoes[] = {
 
     // Símbolos
     {"^(\\(|\\)|\\{|\\}|\\[|\\]|;|,|\\.)", TOKEN_DELIM, "DELIMITADOR"},
-    {"^(==|!=|>=|<=|[+*/=<>-])", TOKEN_OP, "OPERADOR"},
+    {"^(==|!=|>=|<=|\\+=|-=|\\*=|/=|\\+\\+|--|&&|[+*/%<>=!&|^~?:-])", TOKEN_OP, "OPERADOR"},
 
     // Identificadores
     {"^[a-zA-Z_][a-zA-Z0-9_]*", TOKEN_ID, "ID"}};

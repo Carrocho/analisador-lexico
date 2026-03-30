@@ -1,14 +1,10 @@
-char[100] s = "texto sem fechar";
-
-"hello 
-wesley
-
-if (x < 10)
-else
-10.0
-10.0.0
-10.
-$ $ $ $ $ id
-@aaaa
-10aaaa
-teste testre
+int main() {
+    float x = 10.5;
+    char[100] texto = "teste sem fechar
+    1numero_invalido = 0;
+    if(x >= 10){
+        texto = "aaa"
+        x = 10.0.1
+    }
+    $$
+}
